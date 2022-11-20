@@ -33,7 +33,7 @@ async function showData(select_major) {
 		var studentData = await response.json();
 		students = studentData.filter( (student) => student.major == select_major);
 		
-		var templateText = document.getElementByID('myTable').innerHTML;
+		var templateText = document.getElementById('myTable').innerHTML;
 		var compiledTemplateText = Handlebars.compile(templateText);
 		compiledHtml = compiledTemplateText({rows: students});
 		document.getElementById('myTable').innerHTML = compiledHtml;
