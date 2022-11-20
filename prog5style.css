@@ -2,9 +2,6 @@
 	width: 100%;
 	border-collapse: collapse;
 }
-
-#actualTable tr:nth-child(even){background-color: #f1f1f1;} 
-
 #actualTable tr:hover {background-color: #4fc6e1;}
 
 #actualTable td, #actualTable th {
