@@ -1,0 +1,30 @@
+#actualTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#actualTable tr:nth-child(even){background-color: #f1f1f1;} 
+
+#actualTable tr:hover {background-color: #4fc6e1;}
+
+#actualTable td, #actualTable th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#actualTable th {
+	text-align: left;
+	background-color: #571e76;
+	color: white;
+}
+button {
+	border: none;
+	background-color: #56bdda;
+	color: black;
+	padding: 12px;
+	text-align: center;
+	margin: 5px 3px;
+	cursor: pointer;
+	border-radius: 14px;
+	
+}
