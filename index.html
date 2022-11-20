@@ -4,17 +4,19 @@
 <meta charset="UTF-8">
 <title>Program 5</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+<link rel="stylesheet" href="prog5style.css">
 </head>
 <body>
 <h1>Select a Major</h1>
 <p>We filter our database by a student's major.</p>
 <button type="button" id="CITmajor" onClick="showData('CIT')">CIT Majors</button>
 <button type="button" id="BUSmajor" onClick="showData('BUS')">Business Majors</button>
+<br>
 <div id="myTable"></div>
 
 <!-- Handlebar template -->
 <script type="text/x-handlebars-template" id="Template">
-<table>
+<table id="actualTable">
 <tr><th>Name</th><th>Major</th><th>Midterm</th><th>Final</th></tr>
 	{{#each rows}}
 		<tr>
