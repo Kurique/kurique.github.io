@@ -2,6 +2,9 @@
 	width: 100%;
 	border-collapse: collapse;
 }
+
+#actualTable tr:nth-child(even){background-color: #f1f1f1;} 
+
 #actualTable tr:hover {background-color: #4fc6e1;}
 
 #actualTable td, #actualTable th {
@@ -16,8 +19,9 @@
 }
 button {
 	border: none;
-	background-color: #56bdda;
-	color: black;
+	background-color: #007fc7;
+	color: white;
+	font-size: 20px;
 	padding: 12px;
 	text-align: center;
 	margin: 5px 3px;
